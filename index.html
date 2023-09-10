@@ -3,23 +3,25 @@
 <head>
 <meta charset="utf-8">
 <title>A Better Company</title>
-<style>
-body {
-  margin: 0;
-  padding: 0;
-  }
-
-.main {
-  min-height: 100vh;	
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  }
-</style>
+<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
 </head>
 <body>
-    <div class="main">
-        <h1>A Bettter Company</h1>
+<header>
+    <div class="position-absolute top-0 end-0 p-5">
+        <a target="_blank" class="contact text-white" href="https://blog.abettercompany.net/"><h3>Blog</h3></a>
     </div>
+    <div class="position-absolute top-50 w-100">
+        <a class="contact text-white" href="mailto:hello@abettercompany.net">
+        <h1 class="text-white text-center">A Better Company</h1>
+        <p class="text-white text-center">Contact us to create better websites.</p>
+        </a>
+    </div>
+        <video autoplay muted loop id="video-head" class="position-absolute end-0 bottom-0 h-auto w-auto">
+            <source src="1.mp4" type="video/mp4">
+        </video>
+</header>
 </body>
 </html>

@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#video-head {
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+.contact{
+    text-decoration: none;
+}
